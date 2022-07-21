@@ -1,0 +1,110 @@
+body {
+    margin:0;
+    background:rgb(220, 220, 220);
+  }
+  
+.draggable {
+    position: fixed;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    cursor:grab;
+}
+
+.titletext {
+    position:absolute;
+    font-size:24px;
+    font-family:cursive;
+    color:green;
+    left:50%;
+    padding-top:32vh;
+    animation:squiggly-anim 0.34s linear infinite;
+}
+
+.random-list {
+  width:100%; 
+  height:100%;
+  position:relative;
+}
+
+.random { 
+  position:absolute; 
+  padding:5px;
+  background: white;
+  display:none;
+}
+
+.random.show {
+  display:block;
+}
+
+#camera {
+  position:absolute;
+  align:center;
+  width:400px;
+  left:30%;
+  transform:rotate(-12deg);
+}
+
+#pic1 {
+    max-width:250px;
+    rotate:15deg;
+    transform:rotate(5deg);
+}
+
+#pic2 {
+  max-width:250px;
+    rotate:-3deg;
+    transform:rotate(-3deg);
+}
+
+#pic3 {
+  max-width:250px;
+    rotate:-3deg;
+    transform:rotate(-3deg);
+}
+
+#pic4 {
+  max-width:250px;
+    rotate:-3deg;
+    transform:rotate(-3deg);
+}
+
+#pic5 {
+  max-width:250px;
+    rotate:-3deg;
+    transform:rotate(-3deg);
+}
+
+#pic6 {
+  max-width:250px;
+    rotate:-3deg;
+    transform:rotate(-3deg);
+}
+
+#pic7 {
+  max-width:250px;
+    rotate:-3deg;
+    transform:rotate(-3deg);
+}
+
+#pic8 {
+  max-width:250px;
+    rotate:-3deg;
+    transform:rotate(-3deg);
+}
+
+#pic9 {
+  max-width:250px;
+    rotate:-3deg;
+    transform:rotate(-3deg);
+}
+
+#pic10 {
+  max-width:250px;
+    rotate:-3deg;
+    transform:rotate(-3deg);
+}
+
+
